@@ -1,0 +1,83 @@
+.form-content {
+  margin-top: 300px;
+  max-width: $home-form-width;
+  min-height: 200px;
+  // background-color: aqua;
+  margin: $center;
+
+  .text2 {
+    font-size: 60px;
+  }
+
+  .top-boxes {
+    // color: black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .long-box2 {
+      width: 818px;
+      height: 192px;
+    }
+
+    .long-box1 {
+      width: 103px;
+    }
+
+    .long-boxs {
+      width: 698px;
+    }
+
+    .long-box {
+      width: 453px;
+    }
+
+    .icon {
+      margin-left: -40px;
+    }
+
+    input {
+      width: 344px;
+      height: 58px;
+      padding-left: 10px;
+      // background-color: $site-blue;
+      border-style: solid;
+      color: $site-blue;
+    }
+  }
+
+  .button2 {
+    margin-top: 10px;
+  }
+  .but2 {
+    background-color: #79addc;
+    height: 60.59px;
+    width: 813px;
+    border-radius: 38px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: GillSans;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .form-content {
+    // background-color: aquamarine;
+    width: 85%;
+    flex-direction: column;
+    min-height: 90%;
+  }
+  .top-boxes {
+    flex-direction: column;
+  }
+
+  .but1 {
+    flex-direction: column;
+    width: 90%;
+    // min-height: 100px;
+  }
+}

@@ -1,0 +1,31 @@
+.israel-banner {
+  max-width: 981px;
+  height: 431px;
+  margin: 0 auto;
+  margin-top: 48px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+  font-family: ProximaNova;
+  font-style: italic;
+
+  .israel-hero-text {
+    position: absolute;
+    font-size: 50px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .israel-price-text {
+    position: absolute;
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+    right: 10px;
+    bottom: 10px;
+  }
+}

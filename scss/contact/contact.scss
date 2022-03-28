@@ -1,0 +1,93 @@
+.contact {
+  margin-top: 110px;
+  margin-bottom: 180px;
+  margin: 0 auto;
+  max-width: 980px;
+  min-height: 140vh;
+
+  .contact-header {
+    h1 {
+      margin-bottom: 2px;
+      margin-top: 59.5px;
+      font-family: ProximaNova;
+      src: url(fonts/Proxima_Nova_Extra_Condensed_Thin.otf);
+      font-size: 30px;
+    }
+    hr {
+      width: 159px;
+      height: 2px;
+      border-width: 0;
+      background-color: black;
+      margin-bottom: 20px;
+    }
+  }
+
+  .info {
+    display: flex;
+    margin-top: 50.5px;
+
+    .map {
+      width: 400px;
+      height: 442px;
+      background-image: url(../images/map.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .messages {
+      margin-left: 50px;
+      font-family: GillSans;
+      font-size: 16px;
+      color: #707070;
+      padding-left: 10px;
+
+      .name {
+        margin-bottom: 21px;
+        width: 529px;
+        height: 60px;
+        background-color: #f5f5f5;
+      }
+
+      .email {
+        margin-bottom: 21px;
+        width: 529px;
+        height: 60px;
+        background-color: #f5f5f5;
+      }
+
+      .company {
+        margin-bottom: 21px;
+        width: 529px;
+        height: 60px;
+        background-color: #f5f5f5;
+      }
+
+      .message {
+        margin-bottom: 21px;
+        width: 529px;
+        height: 199px;
+        background-color: #f5f5f5;
+      }
+    }
+  }
+  .text5 {
+    width: 400px;
+    height: 161px;
+    margin-bottom: 34px;
+    font-family: GillSans;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    // background-color: aquamarine;
+    width: 85%;
+    flex-direction: column;
+    min-height: 90%;
+  }
+  .info {
+    flex-direction: column;
+  }
+}

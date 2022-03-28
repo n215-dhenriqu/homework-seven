@@ -1,0 +1,45 @@
+.canada-tour {
+  max-width: 981px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  .canada-wall {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/canada-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .canada-ocean {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/canada-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .canada-waterfall {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/canada-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .canada-tour {
+    width: 800px;
+    flex-direction: column;
+    min-height: 940px;
+    // padding-bottom: 40px;
+    .photo {
+    }
+  }
+}

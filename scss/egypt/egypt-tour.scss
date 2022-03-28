@@ -1,0 +1,45 @@
+.egypt-tour {
+  max-width: 981px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  .egypt-wall {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/egypt-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .egypt-ocean {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/egypt-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .egypt-waterfall {
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/egypt-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .egypt-tour {
+    width: 800px;
+    flex-direction: column;
+    min-height: 940px;
+    // padding-bottom: 40px;
+    .photo {
+    }
+  }
+}

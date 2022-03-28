@@ -1,0 +1,35 @@
+.usa-days {
+  max-width: 981px;
+  height: 776px;
+  margin: 0 auto;
+
+  .day-one {
+    font-family: ProximaNova;
+    font-size: 60px;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+  }
+
+  .text {
+    font-family: GillSans;
+    font-size: 16px;
+    margin-bottom: 80px;
+  }
+
+  .day-two {
+    font-family: ProximaNova;
+    font-size: 60px;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+  }
+
+  .day-three {
+    font-family: ProximaNova;
+    font-size: 60px;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+  }
+}

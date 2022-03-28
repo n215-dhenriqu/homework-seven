@@ -1,0 +1,76 @@
+.tour-images {
+  margin: 0 auto;
+  max-width: 818px;
+  height: 400px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  //   font-family: ProximaNova;
+
+  .country {
+    width: 236px;
+    height: 304px;
+    background-color: red;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 60px;
+    font-family: ProximaNova;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .america {
+    width: 236px;
+    height: 304px;
+    background-color: red;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 60px;
+    font-family: ProximaNova;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .aus {
+    width: 236px;
+    height: 304px;
+    background-color: red;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 60px;
+    font-family: ProximaNova;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .moneys {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .tour-images {
+    width: 800px;
+    flex-direction: column;
+    min-height: 940px;
+    // padding-bottom: 40px;
+    .photo {
+    }
+  }
+}

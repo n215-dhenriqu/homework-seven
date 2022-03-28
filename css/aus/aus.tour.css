@@ -1,0 +1,38 @@
+.aus-tour {
+  max-width: 981px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.aus-tour .aus-wall {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/aus-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aus-tour .aus-ocean {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/aus-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aus-tour .aus-waterfall {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/aus-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

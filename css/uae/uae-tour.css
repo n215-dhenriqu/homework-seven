@@ -1,0 +1,38 @@
+.uae-tour {
+  max-width: 981px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.uae-tour .uae-wall {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/uae-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.uae-tour .uae-ocean {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/uae-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.uae-tour .uae-waterfall {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/uae-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

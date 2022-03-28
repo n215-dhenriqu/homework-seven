@@ -1,0 +1,108 @@
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+  margin: 0 auto;
+  max-width: 980px;
+  min-height: 100vh;
+
+  .about-header {
+    h1 {
+      margin-bottom: 2px;
+      margin-top: 30px;
+      font-family: ProximaNova;
+      src: url(fonts/Proxima_Nova_Extra_Condensed_Thin.otf);
+      font-size: 60px;
+    }
+    hr {
+      width: 171px;
+      height: 2px;
+      border-width: 0;
+      background-color: black;
+      margin-bottom: 20px;
+    }
+  }
+
+  .about-client-quotes {
+    margin-top: 107px;
+    font-family: ProximaNova;
+    font-size: 20px;
+    src: url(fonts/Proxima_Nova_Extra_Condensed_Thin.otf);
+
+    hr {
+      width: 255px;
+      height: 2px;
+      border-width: 0;
+      background-color: black;
+      //   margin-bottom: 37px;
+    }
+
+    .client-quote-title {
+      font-size: 40px;
+      margin-bottom: 2px;
+    }
+
+    .client-box {
+      max-width: 722px;
+      //   background-color: brown;
+      display: flex;
+      position: relative;
+      margin-bottom: 30px;
+      margin-top: 37px;
+    }
+
+    .client-image {
+      width: 260px;
+      height: 150px;
+      overflow: hidden;
+      margin-right: 21px;
+      background-image: url(../images/about-client-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .client-images {
+      width: 260px;
+      height: 150px;
+      overflow: hidden;
+      margin-right: 21px;
+      background-image: url(../images/about-client-02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .client-quote {
+      width: 440px;
+      margin-bottom: 30px;
+      //   background-color: violet;
+    }
+
+    .client-name {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: #79addc;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about {
+    // background-color: aquamarine;
+    width: 85%;
+    flex-direction: column;
+    min-height: 90%;
+  }
+  .about-client-quotes {
+    flex-direction: column;
+  }
+}
